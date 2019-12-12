@@ -41,9 +41,13 @@ var originalHeight = document.querySelector('#ratio_2');
 var ratioResultWidth = document.querySelector('#ratio_result-width');
 var ratioResultHeight = document.querySelector('#ratio_result-height');
  var newValues =[ratioResultWidth,ratioResultHeight]
- originalHeight.addEventListener("keyup",function(){
+ 
+ ratioResultWidth.addEventListener("keyup",function(){
     calculateAspectRatio(originalWidth.value,originalHeight.value,newValues)
  ratioResultWidth.value = newValues[0].value;
  ratioResultHeight.value = newValues[1].value;
     
  })
+
+ 
+ 
