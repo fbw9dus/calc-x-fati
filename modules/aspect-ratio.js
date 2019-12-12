@@ -1,4 +1,4 @@
-function calculateAspectRatio(originalWidth, originalHeight, newValues) {
+export function calculateAspectRatio(originalWidth, originalHeight, newValues) {
     let resultWidth = newValues[0];
     let resultHeight = newValues[1];
   
@@ -13,5 +13,6 @@ function calculateAspectRatio(originalWidth, originalHeight, newValues) {
             }
         })
     }
+    
 }
 
