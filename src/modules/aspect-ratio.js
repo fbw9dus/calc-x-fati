@@ -13,5 +13,6 @@ export function calculateAspectRatio(originalWidth, originalHeight, newValues) {
             }
         })
     }
+    
 }
 
